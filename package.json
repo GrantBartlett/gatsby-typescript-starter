@@ -1,0 +1,52 @@
+{
+    "name": "typescript-gatsby-starter",
+    "private": true,
+    "description": "",
+    "version": "0.1",
+    "author": "Grant Bartlett",
+    "dependencies": {
+        "@babel/core": "^7.0.0-0",
+        "gatsby": "^2.13.50",
+        "gatsby-image": "^2.2.8",
+        "gatsby-plugin-manifest": "^2.2.4",
+        "gatsby-plugin-offline": "^2.2.4",
+        "gatsby-plugin-react-helmet": "^3.1.3",
+        "gatsby-plugin-sass": "^2.1.8",
+        "gatsby-plugin-sharp": "^2.2.9",
+        "gatsby-plugin-typescript": "^2.1.2",
+        "gatsby-source-filesystem": "^2.1.8",
+        "gatsby-transformer-sharp": "^2.2.5",
+        "graphql": "^14.4.2",
+        "prop-types": "^15.7.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-helmet": "^5.2.1"
+    },
+    "devDependencies": {
+        "@graphql-codegen/cli": "^1.4.0",
+        "@graphql-codegen/typescript": "^1.4.0",
+        "@graphql-codegen/typescript-operations": "^1.4.0",
+        "@types/node": "^12.6.9",
+        "@types/react": "^16.8.24",
+        "@types/react-dom": "^16.8.5",
+        "@types/react-helmet": "^5.0.8",
+        "autoprefixer": "^9.6.1",
+        "ts-optchain": "^0.1.8",
+        "typescript": "^3.5.3",
+        "node-sass": "^4.12.0"
+    },
+    "keywords": [
+        "gatsby",
+        "typescript"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "gatsby build",
+        "dev": "gatsby develop",
+        "serve": "gatsby serve"
+    },
+    "browserslist": [
+        ">1%",
+        "last 2 versions"
+    ]
+}

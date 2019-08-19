@@ -1,0 +1,79 @@
+.btn 
+{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 13px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: background ease 250ms;
+    font-family: $font-open-sans;
+    font-size: $font-size-md;
+}
+
+.btn:disabled
+{
+    opacity: 0.4;
+    cursor: not-allowed;
+
+    &:hover, &:focus, &:active
+    {
+        opacity: 0.4;
+    }
+}
+
+.btn-primary
+{
+    background: $color-primary;
+    color: $color-white;
+
+    &:focus 
+    {
+        background: darken($color-primary, 10%);
+    }
+}
+
+.btn-secondary
+{
+}
+
+.btn-transparent 
+{
+    background: transparent;
+    
+    &:focus
+    {
+        background: #f1f1f1;
+    }
+}
+
+.btn-outline 
+{
+    background: transparent;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+
+    &:hover { 
+        background: #fff;
+        color: #000;
+    }
+}
+
+.btn-icon 
+{
+    display: flex;
+    align-items: center;
+}
+
+.btn-icon i 
+{ 
+    padding: 0 7px; 
+}
+
+.btn-xs { font-size: $font-size-xs; }
+.btn-sm { font-size: $font-size-sm; }
+.btn-md { font-size: $font-size-md; }
+.btn-lg { font-size: $font-size-lg; }
+.btn-xl { font-size: $font-size-xl; }

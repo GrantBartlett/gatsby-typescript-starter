@@ -1,0 +1,91 @@
+//
+// Variables
+// lowercase hyphen-delimited
+
+
+// 
+// Families 
+$font-open-sans: "Open Sans", sans-serif;
+
+
+//
+// Font sizings
+
+$font-size-base: 1rem; 
+
+$font-size-xl: ($font-size-base * 1.5);
+$font-size-lg: ($font-size-base * 1.25);
+$font-size-md: ($font-size-base * 1.15);
+$font-size-sm: ($font-size-base * 1);
+$font-size-xs: ($font-size-base * 0.8);
+
+
+$icon-xs-size: $font-size-xs;
+$icon-sm-size: $font-size-sm;
+$icon-md-size: $font-size-md;
+$icon-lg-size: $font-size-lg;
+$icon-xl-size: $font-size-xl;
+
+// 
+// PRIVATE colour variables
+// DO NOT REFERENCE THESE OTHER THAN THIS FILE!!!
+$_grey-1: #fafafa;
+$_grey-2: #cccccc;
+$_grey-3: #909090;
+$_grey-4: #555;
+$_grey-5: #444;
+$_grey-6: #222;
+
+
+//
+// PUBLIC colour variables
+// 1-5 (Light to Medium) 5-10 (Medium to Dark) etc
+
+// Text
+$color-grey-text-1: $_grey-1;
+$color-grey-text-2: $_grey-2;
+$color-grey-text-3: $_grey-3;
+$color-grey-text-4: $_grey-4;
+$color-grey-text-5: $_grey-5;
+$color-grey-text-6: $_grey-6;
+
+// Borders
+$color-grey-border-1: $_grey-1;
+$color-grey-border-2: $_grey-2;
+$color-grey-border-3: $_grey-3;
+$color-grey-border-4: $_grey-4;
+$color-grey-border-5: $_grey-5;
+$color-grey-border-6: $_grey-6;
+
+// Backgrounds
+$color-grey-background-1: $_grey-1;
+$color-grey-background-2: $_grey-2;
+$color-grey-background-3: $_grey-3;
+$color-grey-background-4: $_grey-4;
+$color-grey-background-5: $_grey-5;
+$color-grey-background-6: $_grey-6;
+
+// Generic 
+$color-primary: $color-grey-text-5;
+$color-white: #fff;
+
+
+//
+// Breakpoints
+// Example use
+// @media (min-width: $sm-width) { }
+
+$sm-width: 567px;
+$sm-max-width: 540px;
+
+$md-width: 768px;
+$md-max-width: 720px;
+
+$lg-width: 992px;
+$lg-max-width: 960px;
+
+$xl-width: 1200px;
+
+
+//
+// Animations

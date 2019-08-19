@@ -1,0 +1,131 @@
+html, body
+{
+    background: #fff;
+    color: $color-primary;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+main
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer
+{
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    color: $color-primary;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-lowercase { text-transform: lowercase; }
+.text-uppercase { text-transform: uppercase; }
+.text-capitalize { text-transform: capitalize; }
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+ul li 
+{
+    padding: 2px 6px;
+}
+
+img 
+{
+    max-width: 100%;
+}
+
+.hidden 
+{
+    display: none;
+}
+
+.content 
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: $sm-width)
+{
+    .content 
+    {
+        max-width: $sm-max-width;
+    }
+}
+
+@media (min-width: $md-width)
+{
+    .content 
+    {
+        max-width: $md-max-width;
+    }
+}
+
+@media (min-width: $lg-width)
+{
+    .content 
+    {
+        max-width: $lg-max-width;
+    }
+}
+
+.some-boxes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.some-boxes .box
+{
+    width: 100%;
+    background: #efefef;
+    margin: 5px;
+    padding: 15px;
+    border: 4px solid #efefef;
+    border-radius: 14px;
+}
+
+@media(min-width: $sm-width)
+{
+    .some-boxes .box 
+    {
+        width: 48%;
+    }
+}
+
+@media(min-width: $md-width)
+{
+    .some-boxes .box 
+    {
+        width: 45%;
+    }
+}

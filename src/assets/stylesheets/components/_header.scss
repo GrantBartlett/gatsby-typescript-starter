@@ -1,0 +1,23 @@
+.site-header .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.site-header nav 
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    a {
+        padding: 10px; 
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

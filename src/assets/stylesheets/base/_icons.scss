@@ -1,0 +1,40 @@
+.icon-xs
+{
+    font-size: $icon-xs-size;
+}
+
+.icon-md
+{
+    font-size: $icon-md-size;
+}
+
+.icon-lg
+{
+    font-size: $icon-lg-size;
+}
+
+.icon-xl
+{
+    font-size: $icon-xl-size;
+}
+
+//
+// Example of Custom Icon Fonts
+/*
+i {
+    font-family: "";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before 
+{
+    content: "\e908";
+}
+*/

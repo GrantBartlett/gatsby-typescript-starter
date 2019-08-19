@@ -1,0 +1,91 @@
+//
+// Typography
+// Font sizes, never colours
+
+html,body 
+{
+    font-family: $font-open-sans;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-weight: 400;
+}
+
+h1
+{
+    font-size: ($font-size-base * 2.5);
+}
+
+h2
+{
+    font-size: ($font-size-base * 2);
+}
+
+h3 
+{
+    font-size: ($font-size-base * 1.75);
+}
+
+h4 
+{
+    font-size: ($font-size-base * 1.5);
+}
+
+h5
+{
+    font-size: ($font-size-base * 1.25);
+}
+
+p, ul
+{
+    font-size: ($font-size-base * 1.15);
+}
+
+p.lead 
+{
+    font-size: ($font-size-base * 1.25);
+    line-height: 1.6;
+}
+
+
+
+@media(min-width: $sm-width)
+{
+    h1
+    {
+        font-size: ($font-size-base * 3);
+    }
+    
+    h2
+    {
+        font-size: ($font-size-base * 2.5);
+    }
+    
+    h3 
+    {
+        font-size: ($font-size-base * 2);
+    }
+    
+    h4 
+    {
+        font-size: ($font-size-base * 1.75);
+    }
+    
+    h5
+    {
+        font-size: ($font-size-base * 1.5);
+    }
+
+    p, ul
+    {
+        line-height: 1.5;
+        font-size: ($font-size-base * 1.2);
+    }
+
+    p.lead 
+    {
+        font-size: ($font-size-base * 1.5);
+        line-height: 1.6;
+    }
+}
