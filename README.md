@@ -10,7 +10,7 @@ A simple starter project for using [TypeScript](https://www.typescriptlang.org) 
 
 
 ## Demo
-[View Demo](https://angry-hawking-dfde1a.netlify.com/)
+[View Demo](https://gatsby-typescript-scss-starter.netlify.com/)
 
 ## Getting Started
 
