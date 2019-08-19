@@ -1,6 +1,6 @@
 # Gatsby TypeScript Starter
 
-A very simple starter project for using [TypeScript](https://www.typescriptlang.org) and [Gatsby](https://www.gatsbyjs.org/).
+A simple starter project for using [TypeScript](https://www.typescriptlang.org) and [Gatsby](https://www.gatsbyjs.org/).
 
 * Pages and components are classes.  
 * A skeleton [SCSS](https://sass-lang.com/documentation/syntax) project with prefixing can be found in `assets/stylesheets`
