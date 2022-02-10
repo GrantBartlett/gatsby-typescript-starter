@@ -33,7 +33,7 @@
         "autoprefixer": "^9.6.1",
         "ts-optchain": "^0.1.8",
         "typescript": "^3.5.3",
-        "node-sass": "^4.12.0"
+        "node-sass": "^7.0.0"
     },
     "keywords": [
         "gatsby",
